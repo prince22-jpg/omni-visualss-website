@@ -246,7 +246,7 @@ export default function Home() {
           <div className="absolute bottom-5 right-5 h-7 w-7 border-b-[3px] border-r-[3px] border-blue-300" />
 
           <img
-            src="images/portfolio-4.jpg"
+            src="images/portfolio-4..jpg"
             className="h-[340px] w-[270px] object-cover brightness-100 contrast-100 saturate-90 md:h-[640px] md:w-[520px]"
           />
 
