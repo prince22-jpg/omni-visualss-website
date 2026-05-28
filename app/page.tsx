@@ -1149,13 +1149,13 @@ export default function Home() {
 
       <div className="absolute -inset-3 bg-white/40 blur-2xl opacity-70" />
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-3 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
         <img
           src="/images/portfolio-1.jpeg"
-          className="h-[220px] w-full object-cover transition duration-700 group-hover:scale-[1.04] md:h-[350px] md:w-[270px]"
+          className="relative left-1/2 h-[220px] w-[115%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[350px] md:w-[270px] md:translate-x-0"
         />
 
       </div>
@@ -1166,13 +1166,13 @@ export default function Home() {
 
     <div className="group relative w-[46%] md:w-auto">
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-3 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
         <img
           src="/images/portfolio-12.jpg"
-          className="h-[240px] w-full object-cover transition duration-700 group-hover:scale-[1.04] md:h-[390px] md:w-[290px]"
+          className="relative left-1/2 h-[240px] w-[115%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[390px] md:w-[290px] md:translate-x-0"
         />
 
         {/* FLOAT TAG */}
@@ -1189,11 +1189,11 @@ export default function Home() {
 
     {/* CARD 3 */}
 
-    <div className="group relative mt-0 w-[46%] md:mt-10 md:w-auto">
+    <div className="group relative mt-3 w-[58%] md:mt-10 md:w-auto">
 
       <div className="absolute -inset-3 bg-white/40 blur-2xl opacity-70" />
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-3 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
@@ -1218,13 +1218,13 @@ export default function Home() {
 
       <div className="absolute -inset-3 bg-white/40 blur-2xl opacity-70" />
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-3 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
         <img
           src="images/portfolio-13.jpeg"
-          className="h-[180px] w-full object-cover transition duration-700 group-hover:scale-[1.04] md:h-[300px] md:w-[340px]"
+          className="relative left-1/2 h-[180px] w-[112%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[340px] md:translate-x-0"
         />
 
       </div>
@@ -1235,13 +1235,13 @@ export default function Home() {
 
     <div className="group relative mt-12">
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-3 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
         <img
           src="images/portfolio-14.jpeg"
-          className="h-[180px] w-full object-cover transition duration-700 group-hover:scale-[1.04] md:h-[300px] md:w-[380px]"
+         className="relative left-1/2 h-[180px] w-[112%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[380px] md:translate-x-0"
         />
 
       </div>
