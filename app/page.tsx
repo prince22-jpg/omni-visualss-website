@@ -116,7 +116,7 @@ export default function Home() {
 
       <div className="mb-6 flex items-center gap-3 md:mb-8 md:gap-5">
 
-        <p className="text-[9px] font-medium uppercase tracking-[0.42em] text-black/60 md:text-[11px]">
+        <p className="text-[8px] font-medium uppercase tracking-[0.36em] text-black/60 md:text-[11px]">
 
           Cinematic Editing • Motion Design
 
@@ -128,7 +128,7 @@ export default function Home() {
 
       {/* MAIN HEADING */}
 
-      <h1 className="max-w-[650px] text-[2.15rem] leading-[0.92] font-semibold tracking-[-0.07em] sm:text-[2.5rem] md:text-[5.2rem]">
+      <h1 className="max-w-[650px] text-[1.9rem] leading-[0.9] font-semibold tracking-[-0.07em] sm:text-[2.35rem] md:text-[5.2rem]">
 
   <span className="bg-gradient-to-b from-[#2563eb] via-[#60a5fa] to-[#f5f9ff] bg-clip-text text-transparent">
     Premium visuals
@@ -155,7 +155,7 @@ export default function Home() {
 </h1>
       {/* DESCRIPTION */}
 
-      <p className="mt-5 max-w-[500px] text-[13px] leading-relaxed text-black/60 md:mt-10 md:text-[18px]">
+      <p className="mt-4 max-w-[500px] text-[12px] leading-[1.8] text-black/60 md:mt-10 md:text-[18px]">
 
         Cinematic storytelling, premium editing and
         motion design crafted for retention and
@@ -165,13 +165,13 @@ export default function Home() {
 
       {/* BUTTONS */}
 
-      <div className="mt-8 flex flex-wrap items-center gap-5 md:mt-12">
+      <div className="mt-8 flex items-center gap-3 md:mt-12 md:gap-5">
 
         {/* VIEW PROJECTS */}
 
         <Link
           href="/portfolio"
-          className="inline-flex items-center justify-center rounded-full bg-blue-600 px-8 py-4 text-sm font-medium text-white shadow-[0_0_28px_rgba(59,130,246,0.35)] transition duration-300 hover:scale-[1.03] hover:bg-blue-500"
+          className="inline-flex h-[52px] items-center justify-center rounded-full bg-blue-600 px-6 text-[13px] font-medium text-white shadow-[0_0_28px_rgba(59,130,246,0.35)] transition duration-300 hover:scale-[1.03] hover:bg-blue-500 md:h-auto md:px-8 md:py-4 md:text-sm"
         >
           View Projects ↗
         </Link>
@@ -180,7 +180,7 @@ export default function Home() {
 
         <Link
           href="/contact"
-          className="inline-flex items-center justify-center rounded-full border border-blue-500/60 bg-white px-7 py-3 text-[13px] font-medium text-blue-600 shadow-[0_0_18px_rgba(59,130,246,0.18)] transition hover:bg-blue-600 hover:text-white sm:px-9 sm:py-4 sm:text-[15px]"
+          className="inline-flex h-[52px] items-center justify-center rounded-full border border-blue-500/60 bg-white px-5 text-[13px] font-medium text-blue-600 shadow-[0_0_18px_rgba(59,130,246,0.18)] transition hover:bg-blue-600 hover:text-white md:h-auto md:px-9 md:py-4 md:text-[15px]"
         >
 
           Contact ↗
