@@ -1224,7 +1224,7 @@ export default function Home() {
 
         <img
           src="images/portfolio-13.jpeg"
-          className="relative left-1/2 h-[180px] w-[112%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[340px] md:translate-x-0"
+          className="relative left-1/2 h-[180px] w-[100%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[340px] md:translate-x-0"
         />
 
       </div>
@@ -1241,7 +1241,7 @@ export default function Home() {
 
         <img
           src="images/portfolio-14.jpeg"
-         className="relative left-1/2 h-[180px] w-[112%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[380px] md:translate-x-0"
+         className="relative left-1/2 h-[180px] w-[100%] max-w-none -translate-x-1/2 object-cover transition duration-700 group-hover:scale-[1.04] md:left-0 md:h-[300px] md:w-[380px] md:translate-x-0"
         />
 
       </div>
