@@ -655,7 +655,7 @@ export default function Home() {
 />
 
       <img
-  src="/images/Landscape 2.jpeg"
+  src="/images/portfolio-15.jpeg"
   alt="Landscape"
   className="h-[150px] w-full object-cover border border-white/20"
 />
@@ -683,7 +683,7 @@ export default function Home() {
     <div className="grid grid-cols-3 gap-2">
 
      <img
-  src="/images/Landscape 3.jpeg"
+  src="/images/portfolio-2.jpeg"
   alt="Landscape"
   className="h-[120px] w-full object-cover border border-white/20"
 />
