@@ -744,10 +744,10 @@ export default function Home() {
 <div className="absolute left-[12%] top-[52%] h-[1px] w-[180px] bg-blue-400/15" />
 
 <div className="absolute right-[14%] top-[24%] h-[140px] w-[1px] bg-blue-400/15" />
-bg-blue-400/15
+
 {/* FLOATING LABEL */}
 
-<div className="absolute right-[18%] top-[14%] rotate-90">
+<div className="absolute right-[70%] top-[14%] rotate-90">
 
   <p className="text-[10px] uppercase tracking-[0.5em] text-black/35">
 
@@ -835,7 +835,7 @@ bg-blue-400/15
 
 {/* TOP LEFT TECH PANEL */}
 
-<div className="absolute left-[20%] top-[10%] z-[2]">
+<div className="absolute left-[10%] top-[10%] z-[2]">
 
   <div className="flex items-start gap-5">
 
