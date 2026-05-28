@@ -747,7 +747,7 @@ export default function Home() {
 
 {/* FLOATING LABEL */}
 
-<div className="absolute right-[70%] top-[14%] rotate-90">
+<div className="absolute right-[70%] top-[14%] rotate-90 md:right-[90%] md:top-[17%]">
 
   <p className="text-[10px] uppercase tracking-[0.5em] text-black/35">
 
@@ -843,7 +843,7 @@ export default function Home() {
 
     <div className="max-w-[320px]">
 
-      <p className="text-[11px] uppercase tracking-[0.18em] text-black/45">
+      <p className="text-[11px] uppercase tracking-[0.18em] text-black/45 md:ml-25 ">
 
   Featured Design Projects
 
@@ -900,7 +900,7 @@ export default function Home() {
 
   <div className="h-[26px] w-[26px] bg-blue-600" />
 
-  <div className="h-[26px] w-[26px] border border-black/20" />
+  <div className="h-[26px] w-[26px] border border-blue-500/20" />
 
   <div className="h-[26px] w-[26px] border border-black/20" />
 
@@ -1149,7 +1149,7 @@ export default function Home() {
 
       <div className="absolute -inset-3 bg-white/40 blur-2xl opacity-70" />
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 md:p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
@@ -1166,7 +1166,7 @@ export default function Home() {
 
     <div className="group relative w-[46%] md:w-auto">
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 px-3 py-1 md:p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
@@ -1193,7 +1193,7 @@ export default function Home() {
 
       <div className="absolute -inset-3 bg-white/40 blur-2xl opacity-70" />
 
-      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-1 shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
+      <div className="relative overflow-hidden border border-white/70 bg-white/80 p-1 md:px-[4px] md:py-[4px] shadow-[0_20px_60px_rgba(0,0,0,0.10)] backdrop-blur-xl">
 
         <div className="absolute inset-[10px] border border-black/10 pointer-events-none" />
 
@@ -1562,7 +1562,7 @@ export default function Home() {
 
   {/* OUTER FRAME */}
 
-  <div className="relative border border-white/20 bg-black/30 px-5 py-5 backdrop-blur-xl">
+  <div className="relative border border-white/20 bg-blue-500/30 px-5 py-5 backdrop-blur-xl">
 
     {/* GLOW */}
 
@@ -2088,9 +2088,9 @@ export default function Home() {
 
   {/* ATMOSPHERE */}
 
-  <div className="absolute left-[10%] top-[20%] h-[240px] w-[240px] rounded-full bg-black/[0.03] blur-[100px]" />
+  <div className="absolute left-[10%] top-[20%] h-[240px] w-[240px] rounded-full bg-blue-500/[0.03] blur-[100px]" />
 
-  <div className="absolute right-[12%] bottom-[10%] h-[260px] w-[260px] rounded-full bg-black/[0.03] blur-[120px]" />
+  <div className="absolute right-[12%] bottom-[10%] h-[260px] w-[260px] rounded-full bg-blue-500/[0.03] blur-[120px]" />
 
   {/* TOP SECTION */}
 
@@ -2102,7 +2102,7 @@ export default function Home() {
 
       <div className="flex items-center gap-5">
 
-        <div className="h-[7px] w-[7px] rounded-full bg-black" />
+        <div className="h-[7px] w-[7px] rounded-full bg-blue-500" />
 
         <p className="text-[9px] md:text-[9px] md:text-[9px] md:text-[12px] uppercase tracking-[0.45em] text-black/55">
 
@@ -2130,7 +2130,7 @@ export default function Home() {
 
   {/* HEADING */}
 
-  <h2 className="max-w-[1200px] text-center text-[24px] font-semibold leading-[1.05] tracking-[-0.06em] text-black md:text-[52px]">
+  <h2 className="max-w-[1200px] bg-gradient-to-b from-blue-500 via-blue-500 to-white bg-clip-text text-center text-[24px] font-semibold leading-[1.05] tracking-[-0.06em] text-transparent md:text-[52px]">
 
     Built on clarity. Delivered with impact.
 
@@ -2163,30 +2163,30 @@ export default function Home() {
 
   {/* MINI FRAME */}
 
-  <div className="absolute right-[40px] top-[70px] h-[60px] w-[60px] border border-black/15">
+  <div className="absolute right-[40px] top-[70px] h-[60px] w-[60px] border border-blue-500/15">
 
-    <div className="absolute bottom-[-5px] right-[-5px] h-[12px] w-[12px] bg-black" />
+    <div className="absolute bottom-[-5px] right-[-5px] h-[12px] w-[12px] bg-blue-500" />
 
   </div>
 
 </div>
     {/* FEATURES */}
 
-    <div className="relative mt-14 grid grid-cols-2 border-t border-black/10 md:mt-24 md:grid-cols-4">
+    <div className="relative mt-14 grid grid-cols-2 border-t border-blue-500/10 md:mt-24 md:grid-cols-4">
 
       {/* ITEM 1 */}
 
-      <div className="flex flex-col items-center justify-start border-r border-black/10 px-3 py-8 md:px-6 md:py-12 text-center">
+      <div className="flex flex-col items-center justify-start border-r border-blue-500/10 px-3 py-8 md:px-6 md:py-12 text-center">
 
         {/* ICON */}
 
         <div className="relative mx-auto h-[52px] w-[52px]">
 
-          <div className="absolute left-0 top-0 h-[46px] w-[46px] rounded-full border-[2px] border-black" />
+          <div className="absolute left-0 top-0 h-[46px] w-[46px] rounded-full border-[2px] border-blue-500" />
 
-          <div className="absolute right-0 top-0 flex h-[46px] w-[46px] items-center justify-center rounded-full border-[2px] border-black">
+          <div className="absolute right-0 top-0 flex h-[46px] w-[46px] items-center justify-center rounded-full border-[2px] border-blue-500">
 
-            <div className="h-[28px] w-[28px] rounded-full border-[2px] border-black bg-[repeating-linear-gradient(45deg,#000,#000_2px,transparent_2px,transparent_5px)]" />
+            <div className="h-[28px] w-[28px] rounded-full border-[2px] border-blue-500 bg-[repeating-linear-gradient(45deg,#000,#000_2px,transparent_2px,transparent_5px)]" />
 
           </div>
 
@@ -2211,21 +2211,21 @@ export default function Home() {
       
 {/* ITEM 2 */}
 
-<div className="flex flex-col items-center justify-start border-r border-black/10 px-6 py-12 text-center">
+<div className="flex flex-col items-center justify-start border-r border-blue-500/10 px-6 py-12 text-center">
 
         {/* ICON */}
 
         <div className="relative flex mx-auto h-[52px] w-[52px] items-center justify-center">
 
-          <div className="absolute h-[46px] w-[40px] rounded-b-[10px] border-[2px] border-black" />
+          <div className="absolute h-[46px] w-[40px] rounded-b-[10px] border-[2px] border-blue-500" />
 
-          <div className="absolute top-[4px] h-[12px] w-[16px] border-[2px] border-black bg-white" />
+          <div className="absolute top-[4px] h-[12px] w-[16px] border-[2px] border-blue-500 bg-white" />
 
-          <div className="absolute top-[24px] h-[7px] w-[7px] rounded-full bg-black" />
+          <div className="absolute top-[24px] h-[7px] w-[7px] rounded-full bg-blue-500" />
 
-          <div className="absolute bottom-[14px] left-[14px] h-[5px] w-[5px] rounded-full bg-black" />
+          <div className="absolute bottom-[14px] left-[14px] h-[5px] w-[5px] rounded-full bg-blue-500" />
 
-          <div className="absolute bottom-[14px] right-[14px] h-[5px] w-[5px] rounded-full bg-black" />
+          <div className="absolute bottom-[14px] right-[14px] h-[5px] w-[5px] rounded-full bg-blue-500" />
 
         </div>
 
@@ -2247,23 +2247,23 @@ export default function Home() {
 
       {/* ITEM 3 */}
 
-      <div className="flex flex-col items-center justify-start border-r border-black/10 px-6 py-12 text-center">
+      <div className="flex flex-col items-center justify-start border-r border-blue-500/10 px-6 py-12 text-center">
 
         {/* ICON */}
 
         <div className="relative flex h-[52px] w-[52px] items-center justify-center">
 
-          <div className="absolute top-[14px] h-[2px] w-[60px] bg-black" />
+          <div className="absolute top-[14px] h-[2px] w-[60px] bg-blue-500" />
 
-          <div className="absolute top-[30px] h-[2px] w-[60px] bg-black" />
+          <div className="absolute top-[30px] h-[2px] w-[60px] bg-blue-500" />
 
-          <div className="absolute top-[46px] h-[2px] w-[60px] bg-black" />
+          <div className="absolute top-[46px] h-[2px] w-[60px] bg-blue-500" />
 
-          <div className="absolute left-[16px] top-[8px] h-[14px] w-[14px] rounded-full border-[2px] border-black bg-white" />
+          <div className="absolute left-[16px] top-[8px] h-[14px] w-[14px] rounded-full border-[2px] border-blue-500 bg-white" />
 
-          <div className="absolute right-[10px] top-[24px] h-[14px] w-[14px] rounded-full border-[2px] border-black bg-white" />
+          <div className="absolute right-[10px] top-[24px] h-[14px] w-[14px] rounded-full border-[2px] border-blue-500 bg-white" />
 
-          <div className="absolute left-[28px] top-[40px] h-[14px] w-[14px] rounded-full border-[2px] border-black bg-white" />
+          <div className="absolute left-[28px] top-[40px] h-[14px] w-[14px] rounded-full border-[2px] border-blue-500 bg-white" />
 
         </div>
 
@@ -2289,13 +2289,13 @@ export default function Home() {
 
         {/* ICON */}
 
-        <div className="relative flex h-[52px] w-[52px] items-center justify-center rounded-full border-[2px] border-black">
+        <div className="relative flex h-[52px] w-[52px] items-center justify-center rounded-full border-[2px] border-blue-500">
 
-          <div className="absolute left-1/2 top-0 h-full w-[2px] -translate-x-1/2 bg-black" />
+          <div className="absolute left-1/2 top-0 h-full w-[2px] -translate-x-1/2 bg-blue-500" />
 
-          <div className="absolute left-0 top-1/2 h-[2px] w-full -translate-y-1/2 bg-black" />
+          <div className="absolute left-0 top-1/2 h-[2px] w-full -translate-y-1/2 bg-blue-500" />
 
-          <div className="absolute left-1/2 top-1/2 h-[10px] w-[10px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[2px] border-black bg-white" />
+          <div className="absolute left-1/2 top-1/2 h-[10px] w-[10px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[2px] border-blue-500 bg-white" />
 
         </div>
 
@@ -2348,7 +2348,7 @@ export default function Home() {
 
     <div
       key={i}
-      className="h-[2px] w-[2px] rounded-full bg-black"
+      className="h-[2px] w-[2px] rounded-full bg-blue-500"
     />
 
   ))}
@@ -2361,7 +2361,7 @@ export default function Home() {
 
         <div className="flex items-center gap-5">
 
-          <div className="h-[7px] w-[7px] rounded-full bg-black" />
+          <div className="h-[7px] w-[7px] rounded-full bg-blue-500" />
 
           <p className="text-[9px] md:text-[9px] md:text-[9px] md:text-[12px] uppercase tracking-[0.45em] text-black/55">
 
@@ -2384,9 +2384,9 @@ export default function Home() {
       <div className="mt-6 h-[1px] w-[430px] bg-blue-400/15" />
 {/* MINI FRAME */}
 
-<div className="absolute right-[260px] top-[26px] h-[34px] w-[34px] border border-black/10">
+<div className="absolute right-[260px] top-[26px] h-[34px] w-[34px] border border-blue-500/10">
 
-  <div className="absolute bottom-[-4px] right-[-4px] h-[8px] w-[8px] bg-black" />
+  <div className="absolute bottom-[-4px] right-[-4px] h-[8px] w-[8px] bg-blue-500" />
 
 </div>
       {/* SIDE TECH LABELS */}
@@ -2409,7 +2409,7 @@ export default function Home() {
 
     <div
       key={i}
-      className="h-[2px] w-[2px] rounded-full bg-black"
+      className="h-[2px] w-[2px] rounded-full bg-blue-500"
     />
 
   ))}
@@ -2418,9 +2418,9 @@ export default function Home() {
 
 {/* RIGHT THIN FRAME */}
 
-<div className="absolute right-[140px] top-[110px] h-[90px] w-[90px] border border-black/10">
+<div className="absolute right-[140px] top-[110px] h-[90px] w-[90px] border border-blue-500/10">
 
-  <div className="absolute left-[-6px] top-[-6px] h-[12px] w-[12px] border border-black/20 bg-white" />
+  <div className="absolute left-[-6px] top-[-6px] h-[12px] w-[12px] border border-blue-500/20 bg-white" />
 
 </div>
 
@@ -2430,7 +2430,7 @@ export default function Home() {
 
   <div className="h-[1px] w-[120px] bg-blue-400/18" />
 
-  <div className="h-[5px] w-[5px] rounded-full bg-black/30" />
+  <div className="h-[5px] w-[5px] rounded-full bg-blue-500/30" />
 
   <div className="h-[1px] w-[120px] bg-blue-400/18" />
 
@@ -2476,7 +2476,7 @@ export default function Home() {
 
           <div
             key={i}
-            className="relative flex h-[145px] flex-col justify-between border border-black/10 bg-white p-2 md:h-[340px] md:p-10"
+            className="relative flex h-[145px] flex-col justify-between border border-blue-500/10 bg-white p-2 md:h-[340px] md:p-10"
           >
 
             {/* QUOTE */}
@@ -2489,7 +2489,7 @@ export default function Home() {
 
             {/* STARS */}
 
-            <div className="mt-2 flex gap-1 text-[8px] md:mt-5 md:gap-2 md:text-[18px]">
+            <div className="mt-2 flex gap-1 text-[8px] text-blue-500 md:mt-5 md:gap-2 md:text-[18px]">
 
               ★ ★ ★ ★ ★
 
@@ -2509,7 +2509,7 @@ export default function Home() {
 
               <div className="flex items-center gap-1 md:gap-4">
 
-                <div className="flex h-[20px] w-[20px] items-center justify-center rounded-full bg-black text-[8px] text-white md:h-[44px] md:w-[44px] md:text-[14px]">
+                <div className="flex h-[20px] w-[20px] items-center justify-center rounded-full bg-blue-500 text-[8px] text-white md:h-[44px] md:w-[44px] md:text-[14px]">
 
                   {item.name.charAt(0)}
 
@@ -2551,13 +2551,13 @@ export default function Home() {
 
       <div className="mt-10 flex items-center justify-center gap-3 md:mt-20 md:gap-5">
 
-        <div className="h-[12px] w-[12px] rounded-full bg-black" />
+        <div className="h-[12px] w-[12px] rounded-full bg-blue-500" />
 
-        <div className="h-[12px] w-[12px] rounded-full border border-black/25" />
+        <div className="h-[12px] w-[12px] rounded-full border border-blue-500/25" />
 
-        <div className="h-[12px] w-[12px] rounded-full border border-black/25" />
+        <div className="h-[12px] w-[12px] rounded-full border border-blue-500/25" />
 
-        <div className="h-[12px] w-[12px] rounded-full border border-black/25" />
+        <div className="h-[12px] w-[12px] rounded-full border border-blue-500/25" />
 
       </div>
 
